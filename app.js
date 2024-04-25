@@ -4,7 +4,7 @@ let maximum = parseInt(prompt("Enter the maximum number!"));
 while (!maximum) {
   maximum = parseInt(prompt("Enter a valid maximum number"));
 }
-/* 
+/*
 Generates a random number between 0 and 1 and the .floor chops off the .
 * maximum gives max random number up to our maximum entered
 set to variable to give us the target set
